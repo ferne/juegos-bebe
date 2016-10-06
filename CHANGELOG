@@ -1,0 +1,23 @@
+********************************************************************
+*    Versión 0.1.alfa                                  2016-10-03  *
+********************************************************************
+
+** debian-hp *******************************************************
+2016-10-03	20:46
+        1. inicio.html:
+            Añadí un footer con la nota de copyright y con el número de versión del programa, que de momento es el 0.1.
+        2. estilo.css:
+            Añadí un estilo al elemento footer para que el texto fuera x-small.
+        3. principal.js:
+            Agrupé todas las variables de alcance global al comienzo del fichero.
+            Creé dos variables casillas_Alto y casillas_Ancho para definir el tamaño del tablero.
+            Modifiqué el código de creación del tablero para que utilice las dos variables antedichas.
+            dibujar();
+                Creo dos variables ancho_Caja y alto_Caja a partir de las variables globales casillas_Alto y casillas_Ancho, multiplicándolas por 1,2 (dicho factor podría guardarse también en otra variable).
+                Modifico el viewBox del elemento svg para que tome el tamaño a partir de las variables ancho_Caja y alto_Caja recien calculadas.
+
+** debian-hp, ********************************************* ferne **
+2016-10-05	18:51
+    inicio.html
+        La nota de copyright se mueve por debajo de <meta charset=utf8> puesto que se supone que dicha etiqueta tiene que estar en los primeros 512 caracteres 
+

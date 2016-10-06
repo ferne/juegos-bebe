@@ -1,0 +1,40 @@
+/***********************************************************************
+* Juegos Bebé adaptados a las capacidades de los más pequeños.         *
+* Copyright (C) 2016  Matías Tárraga, Fernando Álvarez                 *
+*                                                                      *
+* Juegos Bebé is free software: you can redistribute it and/or modify  *
+* it under the terms of the GNU General Public License as published by *
+* the Free Software Foundation, either version 3 of the License, or    *
+* (at your option) any later version.                                  *
+*                                                                      *
+* Juegos Bebé is distributed in the hope that it will be useful,       *
+* but WITHOUT ANY WARRANTY; without even the implied warranty of       *
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the        *
+* GNU General Public License for more details.                         *
+*                                                                      *
+* You should have received a copy of the GNU General Public License    *
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.*
+***********************************************************************/
+
+
+svg {
+    width:100%;
+	height:90vh;
+	margin-top:5vh;
+}
+
+
+.valido{
+    stroke-width:3.5;
+    stroke:rgb(100,100,100);
+    stroke-opacity:0.2;
+    fill:rgb(250,250,250);
+}
+
+.borde {
+    fill:rgb(250,128,128);
+}
+
+footer {
+    font-size:x-small;
+}

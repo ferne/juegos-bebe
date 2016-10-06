@@ -1,0 +1,19 @@
+
+** debian-hp *******************************************************
+2016-10-03	21:10
+    1. Gestión de los eventos de una tablet.
+    2. Refactorización del código para hacerlo más configurable.
+
+** Ub-Stella, ********************************************* ferne **
+2016-10-05	00:08
+    3. Elección de un servidor de control de versiones. Posibles elecciones por ahora:
+        Github.
+        Bitbucket.
+        Savannah.
+    4. Creación de un sistema de marcadores:
+        a. Numero de casillas coloreadas.
+        b. Porcentaje respecto al total.
+        c. Tiempo tardado.
+    5. Reservar un espacio para los marcadores y para la configuración del tablero a jugar y del tipo de juego.
+    6. Crear un README.
+
